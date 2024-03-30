@@ -418,6 +418,7 @@ int64_t target_timer_next_event(void);
 struct target *get_current_target(struct command_context *cmd_ctx);
 struct target *get_current_target_or_null(struct command_context *cmd_ctx);
 struct target *get_target(const char *id);
+int get_targets_count(void);
 
 /**
  * Get the target type name.
